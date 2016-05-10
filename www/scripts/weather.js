@@ -4,7 +4,7 @@ var OpenWeatherAppKey = "991270d5fcfd65a81cc833def5a8e1fb";
 
 function getWeatherWithZipCode() {
 
-    var zipcode = $('#zip-code-input').val();asd
+    var zipcode = $('#zip-code-input').val();
 
     var queryString =
         'http://api.openweathermap.org/data/2.5/weather?zip='
