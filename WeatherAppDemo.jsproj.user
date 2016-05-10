@@ -3,4 +3,7 @@
   <PropertyGroup>
     <ReferenceCachePath>C:\Users\fiaspat\AppData\Local\Temp\WeatherAppDemo_refcache</ReferenceCachePath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Windows Phone 8'">
+    <DebuggerFlavor>PhoneEmulatorWvga512</DebuggerFlavor>
+  </PropertyGroup>
 </Project>
